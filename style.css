@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Arial;
+}
+.facebook-section{
+   margin: 120px 80px !important;
+   
+}
+.facebook-heading{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    color:#1877F2;
+}
+.connect-with-friends-content{
+    font-size: 28px;
+    line-height: 36px;
+    color:#1c1e21;
+    font-weight: 400;
+}
+.login-form{
+    width: 420px !important;
+    padding: 0px 20px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+    input[type="email"] {
+        outline: none;
+       width:100%;
+       padding: 13px 20px;
+       border: 1px solid gray;
+       border-radius: 5px;
+    }
+    input[type="password"] {
+        border-radius: 5px;
+        outline: none;
+        width:100%;
+        padding: 13px 20px;
+       border: 1px solid gray;
+     }
+
+     input:focus {
+        border: 1px solid #007bff ;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+.login-button{
+    padding: 8px 20px;
+    width: 100%;
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+  font-weight: 700;
+}
+.forget-password-text{
+    cursor: pointer;
+}
+.create-new-account-btn{
+    background-color:#36A420;
+    color:  #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  font-weight: 700;
+}
+
+    .create-page a{
+        color: #1c1e21;
+        text-decoration: none;
+    }
+    .create-page:hover a{
+        border-bottom: 2px solid black;
+        border-radius: 2px;
+    }
+
+
+    @media(max-width:750px){
+        .facebook-section{margin:10px 10px;
+        text-align: center;}
+        .login-form{
+            text-align: center;
+            margin-top: 20px;
+            width: auto !important;
+            /* padding: 0px 20px; */
+           margin-right: 20px !important;
+        }
+        .facebook-heading{text-align: center;}
+        .connect-with-friends-content{font-size: 18px;}
+        .facebook-section{margin:20px !important;}
+    }
